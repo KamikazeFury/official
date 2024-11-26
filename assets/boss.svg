@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <!-- Main Body -->
+ <circle cx="32" cy="32" r="28" fill="#800080" stroke="#400040" stroke-width="4"/>
+ <!-- Eyes -->
+ <circle cx="22" cy="25" r="6" fill="#ff0000"/>
+ <circle cx="42" cy="25" r="6" fill="#ff0000"/>
+ <!-- Mouth -->
+ <path d="M20 40 Q32 50 44 40" stroke="#ff0000" stroke-width="4" fill="none"/>
+ <!-- Crown -->
+ <path d="M16 15 L32 5 L48 15" stroke="#ffd700" stroke-width="4" fill="none"/>
+ <circle cx="32" cy="5" r="3" fill="#ffd700"/>
+ <circle cx="16" cy="15" r="3" fill="#ffd700"/>
+ <circle cx="48" cy="15" r="3" fill="#ffd700"/>
+</svg>

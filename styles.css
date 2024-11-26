@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.game-container {
+    position: relative;
+    margin-top: 50px;
+}
+
+#game {
+    border: 4px solid #ff00ff;
+    box-shadow: 0 0 20px #00ffff;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.game-controls {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.game-button {
+    background: #4a4a4a;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.game-button:hover {
+    background: #666666;
+}
+
+.pause-screen {
+    color: #00ffff !important;
+}
